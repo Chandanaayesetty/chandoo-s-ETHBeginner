@@ -1,2 +1,3 @@
 # ETHBeginner
 
+Implemented in Solidity, the MyToken smart contract is a token that standards and has fundamental features for minting and burning tokens. Along with a mapping to track address balances, it has public variables for the name, abbreviation, and total supply of the token. By creating new coins for a given address, the `mint` function increases the overall supply and balance. On the other hand, if an address has enough balance, the `burn` function allows tokens to be destroyed, reducing both the balance and the overall supply. This contract offers an easy-to-use yet robust framework for controlling the Ethereum blockchain's token supply.
